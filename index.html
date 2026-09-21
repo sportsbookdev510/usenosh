@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>UseNosh (NOSH) — Robinhood · Uniswap</title>
+  <meta name="description" content="Launch coins paired with NFTs on any chain and turn creator fees into an engine that sweeps the floor of the paired collection automatically." />
+  <link rel="icon" type="image/png" href="logo.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="noise" aria-hidden="true"></div>
+
+  <header class="nav">
+    <a class="nav-brand" href="#top">
+      <img src="logo.png" alt="UseNosh logo" class="nav-logo" />
+      <span class="nav-name">UseNosh</span>
+      <span class="nav-ticker">NOSH</span>
+    </a>
+    <nav class="nav-links">
+      <a href="#about">About</a>
+      <a href="#how-to-buy">How to Buy</a>
+      <a href="#join">Join Us</a>
+    </nav>
+    <div class="nav-actions">
+      <a class="btn btn-ghost" href="https://x.com/usenoshonrh" target="_blank" rel="noopener noreferrer">Twitter</a>
+      <a class="btn btn-primary" href="https://app.uniswap.org/swap?chain=robinhood&inputCurrency=NATIVE&outputCurrency=0xComingSoon" target="_blank" rel="noopener noreferrer">Buy NOSH</a>
+    </div>
+    <button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false">
+      <span></span><span></span>
+    </button>
+  </header>
+
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#about">About</a>
+    <a href="#how-to-buy">How to Buy</a>
+    <a href="#join">Join Us</a>
+    <a href="https://x.com/usenoshonrh" target="_blank" rel="noopener noreferrer">Twitter</a>
+    <a class="btn btn-primary" href="https://app.uniswap.org/swap?chain=robinhood&inputCurrency=NATIVE&outputCurrency=0xComingSoon" target="_blank" rel="noopener noreferrer">Buy NOSH</a>
+  </div>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">nosh. · Robinhood Chain · Uniswap</p>
+        <h1>
+          <span class="serif">UseNosh</span>
+          <span class="hero-sub">Sweep floors. Launch coins. Own the edge.</span>
+        </h1>
+        <p class="lede">
+          Launch coins paired with NFTs on any chain and turn creator fees into an engine that sweeps the floor of the paired collection automatically.
+        </p>
+        <div class="hero-ctas">
+          <a class="btn btn-primary btn-lg" href="https://app.uniswap.org/swap?chain=robinhood&inputCurrency=NATIVE&outputCurrency=0xComingSoon" target="_blank" rel="noopener noreferrer">Buy on Uniswap</a>
+          <a class="btn btn-outline btn-lg" href="#how-to-buy">How to Buy</a>
+        </div>
+        <div class="ca-bar">
+          <span class="ca-label">Contract Address</span>
+          <code class="ca-value" id="caValue">0xComingsoon</code>
+          <button class="btn btn-copy" id="copyCa" type="button">Copy</button>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="banner-frame">
+          <img src="banner.png" alt="nosh. banner" class="banner-img" />
+        </div>
+        <div class="token-chip">
+          <img src="logo.png" alt="" />
+          <div>
+            <strong>NOSH</strong>
+            <span>UseNosh</span>
+          </div>
+          <span class="chip-badge">RH</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="stats">
+      <div class="stat">
+        <span class="stat-label">Token</span>
+        <span class="stat-value">UseNosh</span>
+      </div>
+      <div class="stat">
+        <span class="stat-label">Symbol</span>
+        <span class="stat-value">NOSH</span>
+      </div>
+      <div class="stat">
+        <span class="stat-label">Chain</span>
+        <span class="stat-value">Robinhood</span>
+      </div>
+      <div class="stat">
+        <span class="stat-label">DEX</span>
+        <span class="stat-value">Uniswap</span>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="section-head">
+        <p class="eyebrow">About</p>
+        <h2 class="serif">Built for creators who want their fees to work.</h2>
+      </div>
+      <div class="about-grid">
+        <article class="card">
+          <div class="card-icon">01</div>
+          <h3>Coins + NFTs</h3>
+          <p>Launch tokens paired with NFT collections on any chain — one cohesive product surface for culture and liquidity.</p>
+        </article>
+        <article class="card">
+          <div class="card-icon">02</div>
+          <h3>Creator fees → engine</h3>
+          <p>Route creator fees into an automated sweep engine that bids the floor of the paired collection for you.</p>
+        </article>
+        <article class="card">
+          <div class="card-icon">03</div>
+          <h3>Robinhood ready</h3>
+          <p>Trade NOSH on Uniswap against native assets on Robinhood Chain. Simple flow, neon-clean interface energy.</p>
+        </article>
+      </div>
+      <blockquote class="quote">
+        <p>“Launch coins paired with NFTs on any chain and turn creator fees into an engine that sweeps the floor of the paired collection automatically.”</p>
+        <cite>— UseNosh / NOSH</cite>
+      </blockquote>
+    </section>
+
+    <section class="section section-alt" id="how-to-buy">
+      <div class="section-head">
+        <p class="eyebrow">How to Buy</p>
+        <h2 class="serif">Get NOSH in four clean steps.</h2>
+      </div>
+      <ol class="steps">
+        <li class="step">
+          <span class="step-num">1</span>
+          <div>
+            <h3>Set up a wallet</h3>
+            <p>Use a wallet that supports Robinhood Chain (e.g. MetaMask or Rabby). Add the network if needed.</p>
+          </div>
+        </li>
+        <li class="step">
+          <span class="step-num">2</span>
+          <div>
+            <h3>Fund with native gas</h3>
+            <p>Bridge or deposit native Robinhood Chain assets so you can pay gas and swap.</p>
+          </div>
+        </li>
+        <li class="step">
+          <span class="step-num">3</span>
+          <div>
+            <h3>Open Uniswap</h3>
+            <p>Go to the NOSH swap link on Uniswap with Robinhood Chain preselected and NOSH as the output token.</p>
+          </div>
+        </li>
+        <li class="step">
+          <span class="step-num">4</span>
+          <div>
+            <h3>Swap & confirm</h3>
+            <p>Choose your amount, review the quote, and confirm in your wallet. You’re in.</p>
+          </div>
+        </li>
+      </ol>
+      <div class="buy-panel">
+        <div>
+          <h3>Ready to trade?</h3>
+          <p>CA: <code>0xComingsoon</code></p>
+        </div>
+        <a class="btn btn-primary btn-lg" href="https://app.uniswap.org/swap?chain=robinhood&inputCurrency=NATIVE&outputCurrency=0xComingSoon" target="_blank" rel="noopener noreferrer">Buy NOSH on Uniswap</a>
+      </div>
+    </section>
+
+    <section class="section" id="join">
+      <div class="join-panel">
+        <div class="join-copy">
+          <p class="eyebrow">Join Us</p>
+          <h2 class="serif">Follow the launch. Be early.</h2>
+          <p>Updates, drops, and floor-sweep energy live on X. Follow <a href="https://x.com/usenoshonrh" target="_blank" rel="noopener noreferrer">@usenoshonrh</a> and stay plugged into UseNosh.</p>
+          <div class="join-actions">
+            <a class="btn btn-primary btn-lg" href="https://x.com/usenoshonrh" target="_blank" rel="noopener noreferrer">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.727-8.835L1.254 2.25H8.08l4.253 5.622L18.244 2.25zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+              Follow on X
+            </a>
+            <a class="btn btn-outline btn-lg" href="https://app.uniswap.org/swap?chain=robinhood&inputCurrency=NATIVE&outputCurrency=0xComingSoon" target="_blank" rel="noopener noreferrer">Buy NOSH</a>
+          </div>
+        </div>
+        <div class="join-visual">
+          <img src="logo.png" alt="UseNosh logo" />
+          <p>@usenoshonrh</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-brand">
+      <img src="logo.png" alt="" />
+      <div>
+        <strong>UseNosh (NOSH)</strong>
+        <span>Robinhood · Uniswap</span>
+      </div>
+    </div>
+    <div class="footer-links">
+      <a href="#about">About</a>
+      <a href="#how-to-buy">How to Buy</a>
+      <a href="#join">Join Us</a>
+      <a href="https://x.com/usenoshonrh" target="_blank" rel="noopener noreferrer">Twitter</a>
+    </div>
+    <p class="footer-note">Not financial advice. DYOR. Contract: 0xComingsoon</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
